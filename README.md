@@ -16,7 +16,7 @@ Credits go to the following:
 ## Prequisites
 
 - Docker
-- [Docker Buildx Pllugin](https://github.com/docker/buildx)
+- [Docker Buildx Plugin](https://github.com/docker/buildx)
 - Internet connection for the Docker images
 
 ## How to use
