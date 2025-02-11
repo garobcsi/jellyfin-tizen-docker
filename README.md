@@ -16,6 +16,7 @@ Credits go to the following:
 ## Prequisites
 
 - Docker
+- [Docker Buildx Pllugin](https://github.com/docker/buildx)
 - Internet connection for the Docker images
 
 ## How to use
@@ -55,6 +56,10 @@ TV_IP=192.168.0.10 ./install-jellyfin.sh
     ```
 
 2. Build the image providing required build arguments.
+
+   ```bash
+    source .env.default
+   ```
 
    ```bash
     docker build \
